@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.2"/>
+    <PackageReference Include="MediatR" Version="8.0.1"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\basicarch.application\BasicArch.Application.csproj"/>
+    <ProjectReference Include="..\BasicArch.Infra.Bus\BasicArch.Infra.Bus.csproj"/>
+    <ProjectReference Include="..\BasicArch.Infra.Data\BasicArch.Infra.Data.csproj"/>
+    <ProjectReference Include="..\basicarch.domain.core\BasicArch.Domain.Core.csproj"/>
+    <ProjectReference Include="..\basicarch.domain\BasicArch.Domain.csproj"/>
+  </ItemGroup>
+</Project>
