@@ -7,10 +7,10 @@
     <PackageReference Include="MediatR" Version="8.0.1"/>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\basicarch.application\BasicArch.Application.csproj"/>
+    <ProjectReference Include="..\BasicArch.Application\BasicArch.Application.csproj"/>
     <ProjectReference Include="..\BasicArch.Infra.Bus\BasicArch.Infra.Bus.csproj"/>
     <ProjectReference Include="..\BasicArch.Infra.Data\BasicArch.Infra.Data.csproj"/>
-    <ProjectReference Include="..\basicarch.domain.core\BasicArch.Domain.Core.csproj"/>
-    <ProjectReference Include="..\basicarch.domain\BasicArch.Domain.csproj"/>
+    <ProjectReference Include="..\BasicArch.Domain.Core\BasicArch.Domain.Core.csproj"/>
+    <ProjectReference Include="..\BasicArch.Domain\BasicArch.Domain.csproj"/>
   </ItemGroup>
 </Project>
